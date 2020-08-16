@@ -54,7 +54,7 @@ h1 button {
 }
 
 .cards {
-  perspective: 1000p;
+  perspective: 1000px;
   position: relative;
   height: 300px;
   width: 500px;
@@ -70,7 +70,7 @@ h1 button {
   height: 100%;
   width: 100%;
   transform: translateX(50%) rotateY(-10deg);
-  transition: transform 0.4s ease opacity 0.4s ease;
+  transition: transform 0.4s ease, opacity 0.4s ease;
 }
 
 .card.active {
